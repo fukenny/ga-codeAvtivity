@@ -1,2 +1,8 @@
 # ga-codeAvtivity
-Javascript Single Page App  Overview  We will be using Javascript to create a single page app to show and display movie  info.  Using the API from http://www.omdbapi.com/, construct a single page app that will  have a search input box, movie search results, and movie detail portions.  This assignment is similar to we have introduced to students, and it reflects a real  life scenario here in class.  Requirements  Use either Angular or Jquery to solve this problem. If you would like, you can  use some other front end javascript library (Backbone, Ember, React)  Submit us a github link to the project with proper commit messages.  Bonus  Though a backend is not required for this challenge, incorporating Rails for  additional features of this app would impress us.  Use a templating language of your choice for displaying results  Use routing on your app, via # or pushstate features of javascript.  Make it spiffy! Use Bootstrap or Foundation, or design your own html.  The OMDB Api is a nice API to use, however some of the images from the movie  results are not hotlinkable outside of localhost. Don't worry about this for now.
+
+Using Javascript and JQuery we are able to access the JSON inside the Omdb API.
+
+Step 1: Connect with OMdb service. Used JQuery.getJSON() to get initial 10 results.
+Step 2: Layout of array elements. Created a variable that draws in the values from the JSON feed. This variable is then linked to a div in the body.
+Step 3: Expand on the results. Used the imdbID field in the initial array to query the IMdb service for more detailed information.
+Step 4: Add Foundation framework. Adjusted layout using HTML/CSS
